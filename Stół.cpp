@@ -5,8 +5,8 @@ HBRUSH hbrush;
 
 void onCreate(HWND hwnd, WPARAM wp, LPARAM lp)
 {
-	hpen = CreatePen(PS_SOLID, 3, RGB(255,0,0));
-	hbrush = CreateSolidBrush(RGB(0,255,0));
+	hpen = CreatePen(PS_SOLID, 3, RGB(0,0,0));
+	hbrush = CreateSolidBrush(RGB(255,255,255));
 	SetTimer(hwnd, 1, 100, NULL);
 }
 
