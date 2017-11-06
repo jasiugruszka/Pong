@@ -1,4 +1,4 @@
-switch(wp)
+switch(wp) //wp - licznik
 {
   case 1:
   {
