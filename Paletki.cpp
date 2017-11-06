@@ -11,6 +11,6 @@ void DrawLeftPaddle(HDC ptr_hdc)
 {
 	int RPBottom = RPTop + 80;
 	static int x = 100;
-	RECT rctB = {950,RPTop,970,RPBottom};
+	RECT rctB = {900,RPTop,9200,RPBottom};
 	FillRect(ptr_hdc, &rctB, hBrush);
 }
